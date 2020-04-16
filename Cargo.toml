@@ -1,0 +1,16 @@
+[package]
+name = "byterepr"
+version = "0.1.0"
+authors = ["moonheart08 <moonheart08@users.noreply.github.com>"]
+license = "MIT OR Apache-2.0"
+repository =  "https://github.com/hellomouse/byterepr"
+edition = "2018"
+description = """
+Provides a trait for converting PODs to and from their byte representation, with low (usually no) cost.
+"""
+keywords = ["transmute", "bytes", "casting"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = "^1.2"
